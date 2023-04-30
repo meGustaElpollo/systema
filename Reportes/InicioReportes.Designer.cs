@@ -101,6 +101,7 @@
             this.reportViewer6 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.materialCard13.SuspendLayout();
@@ -148,12 +149,13 @@
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.imageList1;
-            this.materialTabControl1.Location = new System.Drawing.Point(3, 64);
+            this.materialTabControl1.Location = new System.Drawing.Point(3, 80);
+            this.materialTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(1936, 1013);
+            this.materialTabControl1.Size = new System.Drawing.Size(2179, 1266);
             this.materialTabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -161,9 +163,10 @@
             this.tabPage1.Controls.Add(this.materialCard13);
             this.tabPage1.ImageKey = "brand-shopee.png";
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(2171, 1223);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Ventas";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -171,6 +174,7 @@
             // materialCard13
             // 
             this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard13.Controls.Add(this.metroLabel1);
             this.materialCard13.Controls.Add(this.materialCard10);
             this.materialCard13.Controls.Add(this.materialComboBox2);
             this.materialCard13.Controls.Add(this.materialCard9);
@@ -179,12 +183,12 @@
             this.materialCard13.Depth = 0;
             this.materialCard13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard13.Location = new System.Drawing.Point(3, 3);
-            this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard13.Location = new System.Drawing.Point(3, 4);
+            this.materialCard13.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard13.Name = "materialCard13";
-            this.materialCard13.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard13.Size = new System.Drawing.Size(1922, 964);
+            this.materialCard13.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard13.Size = new System.Drawing.Size(2165, 1215);
             this.materialCard13.TabIndex = 1;
             // 
             // materialCard10
@@ -193,22 +197,23 @@
             this.materialCard10.Controls.Add(this.reportViewer1);
             this.materialCard10.Depth = 0;
             this.materialCard10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard10.Location = new System.Drawing.Point(112, 297);
-            this.materialCard10.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard10.Location = new System.Drawing.Point(126, 371);
+            this.materialCard10.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard10.Name = "materialCard10";
-            this.materialCard10.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard10.Size = new System.Drawing.Size(1720, 572);
+            this.materialCard10.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard10.Size = new System.Drawing.Size(1935, 715);
             this.materialCard10.TabIndex = 7;
             // 
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "Reportes.VentasPorPeriodo.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer1.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1692, 544);
+            this.reportViewer1.Size = new System.Drawing.Size(1903, 679);
             this.reportViewer1.TabIndex = 1;
             // 
             // materialComboBox2
@@ -227,11 +232,12 @@
             this.materialComboBox2.Hint = "Categoria del Producto:";
             this.materialComboBox2.IntegralHeight = false;
             this.materialComboBox2.ItemHeight = 43;
-            this.materialComboBox2.Location = new System.Drawing.Point(1423, 187);
+            this.materialComboBox2.Location = new System.Drawing.Point(1601, 234);
+            this.materialComboBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.materialComboBox2.MaxDropDownItems = 4;
             this.materialComboBox2.MouseState = MaterialSkin.MouseState.OUT;
             this.materialComboBox2.Name = "materialComboBox2";
-            this.materialComboBox2.Size = new System.Drawing.Size(409, 49);
+            this.materialComboBox2.Size = new System.Drawing.Size(460, 49);
             this.materialComboBox2.StartIndex = 0;
             this.materialComboBox2.TabIndex = 6;
             // 
@@ -243,28 +249,30 @@
             this.materialCard9.Controls.Add(this.materialLabel6);
             this.materialCard9.Depth = 0;
             this.materialCard9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard9.Location = new System.Drawing.Point(112, 28);
-            this.materialCard9.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard9.Location = new System.Drawing.Point(126, 35);
+            this.materialCard9.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard9.Name = "materialCard9";
-            this.materialCard9.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard9.Size = new System.Drawing.Size(625, 138);
+            this.materialCard9.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard9.Size = new System.Drawing.Size(703, 172);
             this.materialCard9.TabIndex = 5;
             // 
             // dateTimeVentas2
             // 
-            this.dateTimeVentas2.Location = new System.Drawing.Point(322, 76);
-            this.dateTimeVentas2.MinimumSize = new System.Drawing.Size(0, 30);
+            this.dateTimeVentas2.Location = new System.Drawing.Point(362, 95);
+            this.dateTimeVentas2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimeVentas2.MinimumSize = new System.Drawing.Size(0, 29);
             this.dateTimeVentas2.Name = "dateTimeVentas2";
-            this.dateTimeVentas2.Size = new System.Drawing.Size(286, 30);
+            this.dateTimeVentas2.Size = new System.Drawing.Size(321, 30);
             this.dateTimeVentas2.TabIndex = 9;
             // 
             // dateTimeVentas1
             // 
-            this.dateTimeVentas1.Location = new System.Drawing.Point(17, 76);
-            this.dateTimeVentas1.MinimumSize = new System.Drawing.Size(0, 30);
+            this.dateTimeVentas1.Location = new System.Drawing.Point(19, 95);
+            this.dateTimeVentas1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimeVentas1.MinimumSize = new System.Drawing.Size(0, 29);
             this.dateTimeVentas1.Name = "dateTimeVentas1";
-            this.dateTimeVentas1.Size = new System.Drawing.Size(288, 30);
+            this.dateTimeVentas1.Size = new System.Drawing.Size(324, 30);
             this.dateTimeVentas1.TabIndex = 8;
             // 
             // materialLabel6
@@ -273,7 +281,7 @@
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel6.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel6.Location = new System.Drawing.Point(19, 18);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             this.materialLabel6.Size = new System.Drawing.Size(91, 29);
@@ -289,12 +297,12 @@
             this.materialCard8.Controls.Add(this.btnVentasPorPeriodo);
             this.materialCard8.Depth = 0;
             this.materialCard8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard8.Location = new System.Drawing.Point(938, 11);
-            this.materialCard8.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard8.Location = new System.Drawing.Point(1055, 14);
+            this.materialCard8.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard8.Name = "materialCard8";
-            this.materialCard8.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard8.Size = new System.Drawing.Size(894, 138);
+            this.materialCard8.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard8.Size = new System.Drawing.Size(1006, 172);
             this.materialCard8.TabIndex = 4;
             // 
             // materialLabel7
@@ -303,7 +311,7 @@
             this.materialLabel7.Depth = 0;
             this.materialLabel7.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel7.Location = new System.Drawing.Point(21, 14);
+            this.materialLabel7.Location = new System.Drawing.Point(24, 18);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             this.materialLabel7.Size = new System.Drawing.Size(471, 29);
@@ -314,7 +322,7 @@
             // 
             this.btnMasVendidos.AutoSize = true;
             this.btnMasVendidos.Depth = 0;
-            this.btnMasVendidos.Location = new System.Drawing.Point(14, 75);
+            this.btnMasVendidos.Location = new System.Drawing.Point(16, 94);
             this.btnMasVendidos.Margin = new System.Windows.Forms.Padding(0);
             this.btnMasVendidos.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnMasVendidos.MouseState = MaterialSkin.MouseState.HOVER;
@@ -330,7 +338,7 @@
             // 
             this.btnVentasPorCliente.AutoSize = true;
             this.btnVentasPorCliente.Depth = 0;
-            this.btnVentasPorCliente.Location = new System.Drawing.Point(331, 76);
+            this.btnVentasPorCliente.Location = new System.Drawing.Point(372, 95);
             this.btnVentasPorCliente.Margin = new System.Windows.Forms.Padding(0);
             this.btnVentasPorCliente.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnVentasPorCliente.MouseState = MaterialSkin.MouseState.HOVER;
@@ -346,7 +354,7 @@
             // 
             this.btnVentasPorPeriodo.AutoSize = true;
             this.btnVentasPorPeriodo.Depth = 0;
-            this.btnVentasPorPeriodo.Location = new System.Drawing.Point(597, 75);
+            this.btnVentasPorPeriodo.Location = new System.Drawing.Point(672, 94);
             this.btnVentasPorPeriodo.Margin = new System.Windows.Forms.Padding(0);
             this.btnVentasPorPeriodo.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnVentasPorPeriodo.MouseState = MaterialSkin.MouseState.HOVER;
@@ -375,11 +383,12 @@
             this.materialComboBox1.Hint = "Clientes:";
             this.materialComboBox1.IntegralHeight = false;
             this.materialComboBox1.ItemHeight = 43;
-            this.materialComboBox1.Location = new System.Drawing.Point(938, 187);
+            this.materialComboBox1.Location = new System.Drawing.Point(1055, 234);
+            this.materialComboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.materialComboBox1.MaxDropDownItems = 4;
             this.materialComboBox1.MouseState = MaterialSkin.MouseState.OUT;
             this.materialComboBox1.Name = "materialComboBox1";
-            this.materialComboBox1.Size = new System.Drawing.Size(438, 49);
+            this.materialComboBox1.Size = new System.Drawing.Size(492, 49);
             this.materialComboBox1.StartIndex = 0;
             this.materialComboBox1.TabIndex = 3;
             // 
@@ -388,9 +397,10 @@
             this.tabPage2.Controls.Add(this.materialCard5);
             this.tabPage2.ImageKey = "shopping-cart.png";
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Compras";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -404,12 +414,12 @@
             this.materialCard5.Depth = 0;
             this.materialCard5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard5.Location = new System.Drawing.Point(3, 3);
-            this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard5.Location = new System.Drawing.Point(3, 4);
+            this.materialCard5.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard5.Name = "materialCard5";
-            this.materialCard5.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard5.Size = new System.Drawing.Size(1922, 964);
+            this.materialCard5.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard5.Size = new System.Drawing.Size(2164, 1215);
             this.materialCard5.TabIndex = 1;
             // 
             // materialCard22
@@ -418,22 +428,23 @@
             this.materialCard22.Controls.Add(this.reportViewer8);
             this.materialCard22.Depth = 0;
             this.materialCard22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard22.Location = new System.Drawing.Point(197, 297);
-            this.materialCard22.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard22.Location = new System.Drawing.Point(222, 371);
+            this.materialCard22.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard22.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard22.Name = "materialCard22";
-            this.materialCard22.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard22.Size = new System.Drawing.Size(1603, 684);
+            this.materialCard22.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard22.Size = new System.Drawing.Size(1803, 855);
             this.materialCard22.TabIndex = 11;
             // 
             // reportViewer8
             // 
             this.reportViewer8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer8.LocalReport.ReportEmbeddedResource = "Reportes.Report1.rdlc";
-            this.reportViewer8.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer8.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer8.Name = "reportViewer8";
             this.reportViewer8.ServerReport.BearerToken = null;
-            this.reportViewer8.Size = new System.Drawing.Size(1575, 656);
+            this.reportViewer8.Size = new System.Drawing.Size(1771, 819);
             this.reportViewer8.TabIndex = 1;
             // 
             // materialCard12
@@ -444,12 +455,12 @@
             this.materialCard12.Controls.Add(this.btnCompraProductosFrecuentes);
             this.materialCard12.Depth = 0;
             this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard12.Location = new System.Drawing.Point(208, 28);
-            this.materialCard12.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard12.Location = new System.Drawing.Point(234, 35);
+            this.materialCard12.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard12.Name = "materialCard12";
-            this.materialCard12.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard12.Size = new System.Drawing.Size(745, 138);
+            this.materialCard12.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard12.Size = new System.Drawing.Size(838, 172);
             this.materialCard12.TabIndex = 7;
             // 
             // materialLabel9
@@ -458,7 +469,7 @@
             this.materialLabel9.Depth = 0;
             this.materialLabel9.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel9.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel9.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel9.Location = new System.Drawing.Point(19, 18);
             this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel9.Name = "materialLabel9";
             this.materialLabel9.Size = new System.Drawing.Size(471, 29);
@@ -469,7 +480,7 @@
             // 
             this.btnComprasPorPeriodo.AutoSize = true;
             this.btnComprasPorPeriodo.Depth = 0;
-            this.btnComprasPorPeriodo.Location = new System.Drawing.Point(14, 75);
+            this.btnComprasPorPeriodo.Location = new System.Drawing.Point(16, 94);
             this.btnComprasPorPeriodo.Margin = new System.Windows.Forms.Padding(0);
             this.btnComprasPorPeriodo.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnComprasPorPeriodo.MouseState = MaterialSkin.MouseState.HOVER;
@@ -485,7 +496,7 @@
             // 
             this.btnCompraProductosFrecuentes.AutoSize = true;
             this.btnCompraProductosFrecuentes.Depth = 0;
-            this.btnCompraProductosFrecuentes.Location = new System.Drawing.Point(276, 76);
+            this.btnCompraProductosFrecuentes.Location = new System.Drawing.Point(310, 95);
             this.btnCompraProductosFrecuentes.Margin = new System.Windows.Forms.Padding(0);
             this.btnCompraProductosFrecuentes.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnCompraProductosFrecuentes.MouseState = MaterialSkin.MouseState.HOVER;
@@ -505,30 +516,32 @@
             this.materialCard11.Controls.Add(this.materialLabel8);
             this.materialCard11.Depth = 0;
             this.materialCard11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard11.Location = new System.Drawing.Point(1020, 28);
-            this.materialCard11.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard11.Location = new System.Drawing.Point(1148, 35);
+            this.materialCard11.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard11.Name = "materialCard11";
-            this.materialCard11.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard11.Size = new System.Drawing.Size(625, 138);
+            this.materialCard11.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard11.Size = new System.Drawing.Size(703, 172);
             this.materialCard11.TabIndex = 6;
             // 
             // metroDateTime3
             // 
             this.metroDateTime3.Enabled = false;
-            this.metroDateTime3.Location = new System.Drawing.Point(322, 76);
+            this.metroDateTime3.Location = new System.Drawing.Point(362, 95);
+            this.metroDateTime3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTime3.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTime3.Name = "metroDateTime3";
-            this.metroDateTime3.Size = new System.Drawing.Size(286, 30);
+            this.metroDateTime3.Size = new System.Drawing.Size(321, 30);
             this.metroDateTime3.TabIndex = 9;
             // 
             // metroDateTime4
             // 
             this.metroDateTime4.Enabled = false;
-            this.metroDateTime4.Location = new System.Drawing.Point(17, 76);
+            this.metroDateTime4.Location = new System.Drawing.Point(19, 95);
+            this.metroDateTime4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTime4.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTime4.Name = "metroDateTime4";
-            this.metroDateTime4.Size = new System.Drawing.Size(288, 30);
+            this.metroDateTime4.Size = new System.Drawing.Size(324, 30);
             this.metroDateTime4.TabIndex = 8;
             // 
             // materialLabel8
@@ -537,7 +550,7 @@
             this.materialLabel8.Depth = 0;
             this.materialLabel8.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel8.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel8.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel8.Location = new System.Drawing.Point(19, 18);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
             this.materialLabel8.Size = new System.Drawing.Size(91, 29);
@@ -549,8 +562,9 @@
             this.tabPage3.Controls.Add(this.materialCard7);
             this.tabPage3.ImageKey = "users-plus.png";
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage3.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Memebresías";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -565,11 +579,11 @@
             this.materialCard7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard7.Location = new System.Drawing.Point(0, 0);
-            this.materialCard7.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard7.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
-            this.materialCard7.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard7.Size = new System.Drawing.Size(1928, 970);
+            this.materialCard7.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard7.Size = new System.Drawing.Size(2170, 1223);
             this.materialCard7.TabIndex = 3;
             // 
             // materialCard21
@@ -578,22 +592,23 @@
             this.materialCard21.Controls.Add(this.reportViewer7);
             this.materialCard21.Depth = 0;
             this.materialCard21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard21.Location = new System.Drawing.Point(197, 297);
-            this.materialCard21.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard21.Location = new System.Drawing.Point(222, 371);
+            this.materialCard21.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard21.Name = "materialCard21";
-            this.materialCard21.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard21.Size = new System.Drawing.Size(1603, 684);
+            this.materialCard21.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard21.Size = new System.Drawing.Size(1803, 855);
             this.materialCard21.TabIndex = 10;
             // 
             // reportViewer7
             // 
             this.reportViewer7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer7.LocalReport.ReportEmbeddedResource = "Reportes.IngresosPorMembresias.rdlc";
-            this.reportViewer7.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer7.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer7.Name = "reportViewer7";
             this.reportViewer7.ServerReport.BearerToken = null;
-            this.reportViewer7.Size = new System.Drawing.Size(1575, 656);
+            this.reportViewer7.Size = new System.Drawing.Size(1771, 819);
             this.reportViewer7.TabIndex = 1;
             // 
             // materialCard15
@@ -604,29 +619,31 @@
             this.materialCard15.Controls.Add(this.materialLabel11);
             this.materialCard15.Depth = 0;
             this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard15.Location = new System.Drawing.Point(1020, 28);
-            this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard15.Location = new System.Drawing.Point(1148, 35);
+            this.materialCard15.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard15.Name = "materialCard15";
-            this.materialCard15.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard15.Size = new System.Drawing.Size(625, 138);
+            this.materialCard15.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard15.Size = new System.Drawing.Size(703, 172);
             this.materialCard15.TabIndex = 9;
             // 
             // metroDateTimeMembresia2
             // 
-            this.metroDateTimeMembresia2.Location = new System.Drawing.Point(322, 76);
+            this.metroDateTimeMembresia2.Location = new System.Drawing.Point(362, 95);
+            this.metroDateTimeMembresia2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTimeMembresia2.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTimeMembresia2.Name = "metroDateTimeMembresia2";
-            this.metroDateTimeMembresia2.Size = new System.Drawing.Size(286, 30);
+            this.metroDateTimeMembresia2.Size = new System.Drawing.Size(321, 30);
             this.metroDateTimeMembresia2.TabIndex = 9;
             this.metroDateTimeMembresia2.ValueChanged += new System.EventHandler(this.metroDateTime5_ValueChanged);
             // 
             // metroDateTimeMembresia1
             // 
-            this.metroDateTimeMembresia1.Location = new System.Drawing.Point(17, 76);
+            this.metroDateTimeMembresia1.Location = new System.Drawing.Point(19, 95);
+            this.metroDateTimeMembresia1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTimeMembresia1.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTimeMembresia1.Name = "metroDateTimeMembresia1";
-            this.metroDateTimeMembresia1.Size = new System.Drawing.Size(288, 30);
+            this.metroDateTimeMembresia1.Size = new System.Drawing.Size(324, 30);
             this.metroDateTimeMembresia1.TabIndex = 8;
             this.metroDateTimeMembresia1.ValueChanged += new System.EventHandler(this.metroDateTime6_ValueChanged);
             // 
@@ -636,7 +653,7 @@
             this.materialLabel11.Depth = 0;
             this.materialLabel11.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel11.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel11.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel11.Location = new System.Drawing.Point(19, 18);
             this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel11.Name = "materialLabel11";
             this.materialLabel11.Size = new System.Drawing.Size(91, 29);
@@ -651,12 +668,12 @@
             this.materialCard14.Controls.Add(this.materialRadioButton1);
             this.materialCard14.Depth = 0;
             this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard14.Location = new System.Drawing.Point(208, 28);
-            this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard14.Location = new System.Drawing.Point(234, 35);
+            this.materialCard14.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard14.Name = "materialCard14";
-            this.materialCard14.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard14.Size = new System.Drawing.Size(745, 138);
+            this.materialCard14.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard14.Size = new System.Drawing.Size(838, 172);
             this.materialCard14.TabIndex = 8;
             // 
             // materialLabel10
@@ -665,7 +682,7 @@
             this.materialLabel10.Depth = 0;
             this.materialLabel10.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel10.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel10.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel10.Location = new System.Drawing.Point(19, 18);
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
             this.materialLabel10.Size = new System.Drawing.Size(471, 29);
@@ -676,7 +693,7 @@
             // 
             this.btnIngresosPorMembresias.AutoSize = true;
             this.btnIngresosPorMembresias.Depth = 0;
-            this.btnIngresosPorMembresias.Location = new System.Drawing.Point(325, 73);
+            this.btnIngresosPorMembresias.Location = new System.Drawing.Point(366, 91);
             this.btnIngresosPorMembresias.Margin = new System.Windows.Forms.Padding(0);
             this.btnIngresosPorMembresias.MouseLocation = new System.Drawing.Point(-1, -1);
             this.btnIngresosPorMembresias.MouseState = MaterialSkin.MouseState.HOVER;
@@ -693,7 +710,7 @@
             // 
             this.materialRadioButton1.AutoSize = true;
             this.materialRadioButton1.Depth = 0;
-            this.materialRadioButton1.Location = new System.Drawing.Point(14, 73);
+            this.materialRadioButton1.Location = new System.Drawing.Point(16, 91);
             this.materialRadioButton1.Margin = new System.Windows.Forms.Padding(0);
             this.materialRadioButton1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialRadioButton1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -710,9 +727,10 @@
             this.tabPage4.Controls.Add(this.materialCard1);
             this.tabPage4.ImageKey = "transfer-out.png";
             this.tabPage4.Location = new System.Drawing.Point(4, 39);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage4.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Entrada/Salida";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -727,22 +745,23 @@
             this.materialCard1.Depth = 0;
             this.materialCard1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard1.Location = new System.Drawing.Point(3, 3);
-            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard1.Location = new System.Drawing.Point(3, 4);
+            this.materialCard1.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard1.Name = "materialCard1";
-            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard1.Size = new System.Drawing.Size(1922, 964);
+            this.materialCard1.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard1.Size = new System.Drawing.Size(2164, 1215);
             this.materialCard1.TabIndex = 0;
             // 
             // btnBuscarEntradaSalida
             // 
             this.btnBuscarEntradaSalida.Depth = 0;
             this.btnBuscarEntradaSalida.Icon = ((System.Drawing.Image)(resources.GetObject("btnBuscarEntradaSalida.Icon")));
-            this.btnBuscarEntradaSalida.Location = new System.Drawing.Point(1729, 130);
+            this.btnBuscarEntradaSalida.Location = new System.Drawing.Point(1945, 162);
+            this.btnBuscarEntradaSalida.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnBuscarEntradaSalida.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnBuscarEntradaSalida.Name = "btnBuscarEntradaSalida";
-            this.btnBuscarEntradaSalida.Size = new System.Drawing.Size(56, 56);
+            this.btnBuscarEntradaSalida.Size = new System.Drawing.Size(63, 70);
             this.btnBuscarEntradaSalida.TabIndex = 10;
             this.btnBuscarEntradaSalida.Text = "materialFloatingActionButton1";
             this.btnBuscarEntradaSalida.UseVisualStyleBackColor = true;
@@ -754,22 +773,23 @@
             this.materialCard16.Controls.Add(this.reportViewerEntradaSalida);
             this.materialCard16.Depth = 0;
             this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard16.Location = new System.Drawing.Point(182, 203);
-            this.materialCard16.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard16.Location = new System.Drawing.Point(205, 254);
+            this.materialCard16.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard16.Name = "materialCard16";
-            this.materialCard16.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard16.Size = new System.Drawing.Size(1603, 684);
+            this.materialCard16.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard16.Size = new System.Drawing.Size(1803, 855);
             this.materialCard16.TabIndex = 8;
             // 
             // reportViewerEntradaSalida
             // 
             this.reportViewerEntradaSalida.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewerEntradaSalida.LocalReport.ReportEmbeddedResource = "Reportes.AsistenciaPorPeriodo.rdlc";
-            this.reportViewerEntradaSalida.Location = new System.Drawing.Point(14, 14);
+            this.reportViewerEntradaSalida.Location = new System.Drawing.Point(16, 18);
+            this.reportViewerEntradaSalida.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewerEntradaSalida.Name = "reportViewerEntradaSalida";
             this.reportViewerEntradaSalida.ServerReport.BearerToken = null;
-            this.reportViewerEntradaSalida.Size = new System.Drawing.Size(1575, 656);
+            this.reportViewerEntradaSalida.Size = new System.Drawing.Size(1771, 819);
             this.reportViewerEntradaSalida.TabIndex = 1;
             // 
             // materialLabel1
@@ -778,7 +798,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto Light", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H2;
-            this.materialLabel1.Location = new System.Drawing.Point(170, 62);
+            this.materialLabel1.Location = new System.Drawing.Point(191, 78);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(614, 72);
@@ -793,28 +813,30 @@
             this.materialCard23.Controls.Add(this.materialLabel12);
             this.materialCard23.Depth = 0;
             this.materialCard23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard23.Location = new System.Drawing.Point(1113, 14);
-            this.materialCard23.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard23.Location = new System.Drawing.Point(1252, 18);
+            this.materialCard23.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard23.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard23.Name = "materialCard23";
-            this.materialCard23.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard23.Size = new System.Drawing.Size(625, 138);
+            this.materialCard23.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard23.Size = new System.Drawing.Size(703, 172);
             this.materialCard23.TabIndex = 10;
             // 
             // metroDateTimeEntrada2
             // 
-            this.metroDateTimeEntrada2.Location = new System.Drawing.Point(322, 55);
+            this.metroDateTimeEntrada2.Location = new System.Drawing.Point(362, 69);
+            this.metroDateTimeEntrada2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTimeEntrada2.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTimeEntrada2.Name = "metroDateTimeEntrada2";
-            this.metroDateTimeEntrada2.Size = new System.Drawing.Size(286, 30);
+            this.metroDateTimeEntrada2.Size = new System.Drawing.Size(321, 30);
             this.metroDateTimeEntrada2.TabIndex = 9;
             // 
             // metroDateTimeEntrada
             // 
-            this.metroDateTimeEntrada.Location = new System.Drawing.Point(17, 55);
+            this.metroDateTimeEntrada.Location = new System.Drawing.Point(19, 69);
+            this.metroDateTimeEntrada.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroDateTimeEntrada.MinimumSize = new System.Drawing.Size(4, 30);
             this.metroDateTimeEntrada.Name = "metroDateTimeEntrada";
-            this.metroDateTimeEntrada.Size = new System.Drawing.Size(288, 30);
+            this.metroDateTimeEntrada.Size = new System.Drawing.Size(324, 30);
             this.metroDateTimeEntrada.TabIndex = 8;
             // 
             // materialLabel12
@@ -823,7 +845,7 @@
             this.materialLabel12.Depth = 0;
             this.materialLabel12.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel12.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel12.Location = new System.Drawing.Point(17, 14);
+            this.materialLabel12.Location = new System.Drawing.Point(19, 18);
             this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel12.Name = "materialLabel12";
             this.materialLabel12.Size = new System.Drawing.Size(91, 29);
@@ -835,8 +857,9 @@
             this.tabPage5.Controls.Add(this.materialCard2);
             this.tabPage5.ImageKey = "report-money.png";
             this.tabPage5.Location = new System.Drawing.Point(4, 39);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage5.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Gastos";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -850,11 +873,11 @@
             this.materialCard2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard2.Location = new System.Drawing.Point(0, 0);
-            this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard2.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard2.Name = "materialCard2";
-            this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard2.Size = new System.Drawing.Size(1928, 970);
+            this.materialCard2.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard2.Size = new System.Drawing.Size(2170, 1223);
             this.materialCard2.TabIndex = 0;
             // 
             // materialCard17
@@ -863,22 +886,23 @@
             this.materialCard17.Controls.Add(this.reportViewer3);
             this.materialCard17.Depth = 0;
             this.materialCard17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard17.Location = new System.Drawing.Point(182, 203);
-            this.materialCard17.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard17.Location = new System.Drawing.Point(205, 254);
+            this.materialCard17.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard17.Name = "materialCard17";
-            this.materialCard17.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard17.Size = new System.Drawing.Size(1603, 684);
+            this.materialCard17.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard17.Size = new System.Drawing.Size(1803, 855);
             this.materialCard17.TabIndex = 9;
             // 
             // reportViewer3
             // 
             this.reportViewer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer3.LocalReport.ReportEmbeddedResource = "Reportes.Report1.rdlc";
-            this.reportViewer3.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer3.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer3.Name = "reportViewer3";
             this.reportViewer3.ServerReport.BearerToken = null;
-            this.reportViewer3.Size = new System.Drawing.Size(1575, 656);
+            this.reportViewer3.Size = new System.Drawing.Size(1771, 819);
             this.reportViewer3.TabIndex = 1;
             // 
             // materialLabel2
@@ -887,7 +911,7 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto Light", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H2;
-            this.materialLabel2.Location = new System.Drawing.Point(684, 31);
+            this.materialLabel2.Location = new System.Drawing.Point(770, 39);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(498, 72);
@@ -899,8 +923,9 @@
             this.tabPage6.Controls.Add(this.materialCard3);
             this.tabPage6.ImageKey = "users-group.png";
             this.tabPage6.Location = new System.Drawing.Point(4, 39);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage6.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Clientes";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -914,11 +939,11 @@
             this.materialCard3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard3.Location = new System.Drawing.Point(0, 0);
-            this.materialCard3.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard3.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard3.Name = "materialCard3";
-            this.materialCard3.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard3.Size = new System.Drawing.Size(1928, 970);
+            this.materialCard3.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard3.Size = new System.Drawing.Size(2170, 1223);
             this.materialCard3.TabIndex = 0;
             this.materialCard3.Paint += new System.Windows.Forms.PaintEventHandler(this.materialCard3_Paint);
             // 
@@ -928,22 +953,23 @@
             this.materialCard18.Controls.Add(this.reportViewer4);
             this.materialCard18.Depth = 0;
             this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard18.Location = new System.Drawing.Point(163, 150);
-            this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard18.Location = new System.Drawing.Point(183, 188);
+            this.materialCard18.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard18.Name = "materialCard18";
-            this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard18.Size = new System.Drawing.Size(1603, 684);
+            this.materialCard18.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard18.Size = new System.Drawing.Size(1803, 855);
             this.materialCard18.TabIndex = 10;
             // 
             // reportViewer4
             // 
             this.reportViewer4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer4.LocalReport.ReportEmbeddedResource = "Reportes.Report1.rdlc";
-            this.reportViewer4.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer4.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer4.Name = "reportViewer4";
             this.reportViewer4.ServerReport.BearerToken = null;
-            this.reportViewer4.Size = new System.Drawing.Size(1575, 656);
+            this.reportViewer4.Size = new System.Drawing.Size(1771, 819);
             this.reportViewer4.TabIndex = 1;
             // 
             // materialLabel3
@@ -952,7 +978,7 @@
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto Light", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H2;
-            this.materialLabel3.Location = new System.Drawing.Point(674, 31);
+            this.materialLabel3.Location = new System.Drawing.Point(758, 39);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(538, 72);
@@ -964,8 +990,9 @@
             this.tabPage7.Controls.Add(this.materialCard4);
             this.tabPage7.ImageKey = "truck-delivery.png";
             this.tabPage7.Location = new System.Drawing.Point(4, 39);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage7.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Proveedores";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -979,11 +1006,11 @@
             this.materialCard4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard4.Location = new System.Drawing.Point(0, 0);
-            this.materialCard4.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard4.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard4.Name = "materialCard4";
-            this.materialCard4.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard4.Size = new System.Drawing.Size(1928, 970);
+            this.materialCard4.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard4.Size = new System.Drawing.Size(2170, 1223);
             this.materialCard4.TabIndex = 0;
             // 
             // materialCard19
@@ -992,22 +1019,23 @@
             this.materialCard19.Controls.Add(this.reportViewer5);
             this.materialCard19.Depth = 0;
             this.materialCard19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard19.Location = new System.Drawing.Point(252, 150);
-            this.materialCard19.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard19.Location = new System.Drawing.Point(284, 188);
+            this.materialCard19.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard19.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard19.Name = "materialCard19";
-            this.materialCard19.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard19.Size = new System.Drawing.Size(1603, 744);
+            this.materialCard19.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard19.Size = new System.Drawing.Size(1803, 930);
             this.materialCard19.TabIndex = 11;
             // 
             // reportViewer5
             // 
             this.reportViewer5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer5.LocalReport.ReportEmbeddedResource = "Reportes.Report1.rdlc";
-            this.reportViewer5.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer5.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer5.Name = "reportViewer5";
             this.reportViewer5.ServerReport.BearerToken = null;
-            this.reportViewer5.Size = new System.Drawing.Size(1575, 716);
+            this.reportViewer5.Size = new System.Drawing.Size(1771, 894);
             this.reportViewer5.TabIndex = 1;
             // 
             // materialLabel4
@@ -1016,7 +1044,7 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto Light", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel4.FontType = MaterialSkin.MaterialSkinManager.fontType.H2;
-            this.materialLabel4.Location = new System.Drawing.Point(674, 31);
+            this.materialLabel4.Location = new System.Drawing.Point(758, 39);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(659, 72);
@@ -1028,8 +1056,9 @@
             this.tabPage8.Controls.Add(this.materialCard6);
             this.tabPage8.ImageKey = "pig-money.png";
             this.tabPage8.Location = new System.Drawing.Point(4, 39);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1928, 970);
+            this.tabPage8.Size = new System.Drawing.Size(2170, 1223);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Ingresos Diarios";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1043,11 +1072,11 @@
             this.materialCard6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialCard6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard6.Location = new System.Drawing.Point(0, 0);
-            this.materialCard6.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard6.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard6.Name = "materialCard6";
-            this.materialCard6.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard6.Size = new System.Drawing.Size(1928, 970);
+            this.materialCard6.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard6.Size = new System.Drawing.Size(2170, 1223);
             this.materialCard6.TabIndex = 0;
             // 
             // materialCard20
@@ -1056,22 +1085,23 @@
             this.materialCard20.Controls.Add(this.reportViewer6);
             this.materialCard20.Depth = 0;
             this.materialCard20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard20.Location = new System.Drawing.Point(252, 150);
-            this.materialCard20.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard20.Location = new System.Drawing.Point(284, 188);
+            this.materialCard20.Margin = new System.Windows.Forms.Padding(16, 18, 16, 18);
             this.materialCard20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard20.Name = "materialCard20";
-            this.materialCard20.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard20.Size = new System.Drawing.Size(1603, 744);
+            this.materialCard20.Padding = new System.Windows.Forms.Padding(16, 18, 16, 18);
+            this.materialCard20.Size = new System.Drawing.Size(1803, 930);
             this.materialCard20.TabIndex = 12;
             // 
             // reportViewer6
             // 
             this.reportViewer6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.reportViewer6.LocalReport.ReportEmbeddedResource = "Reportes.Report1.rdlc";
-            this.reportViewer6.Location = new System.Drawing.Point(14, 14);
+            this.reportViewer6.Location = new System.Drawing.Point(16, 18);
+            this.reportViewer6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reportViewer6.Name = "reportViewer6";
             this.reportViewer6.ServerReport.BearerToken = null;
-            this.reportViewer6.Size = new System.Drawing.Size(1575, 716);
+            this.reportViewer6.Size = new System.Drawing.Size(1771, 894);
             this.reportViewer6.TabIndex = 1;
             // 
             // materialLabel5
@@ -1080,7 +1110,7 @@
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto Light", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.H2;
-            this.materialLabel5.Location = new System.Drawing.Point(674, 31);
+            this.materialLabel5.Location = new System.Drawing.Point(758, 39);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(543, 72);
@@ -1100,16 +1130,27 @@
             this.imageList1.Images.SetKeyName(6, "truck-delivery.png");
             this.imageList1.Images.SetKeyName(7, "pig-money.png");
             // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(603, 295);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(65, 19);
+            this.metroLabel1.TabIndex = 8;
+            this.metroLabel1.Text = "xchel uwu";
+            // 
             // InicioReportes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1942, 1080);
+            this.ClientSize = new System.Drawing.Size(2185, 1350);
             this.Controls.Add(this.materialTabControl1);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.materialTabControl1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "InicioReportes";
+            this.Padding = new System.Windows.Forms.Padding(3, 80, 3, 4);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reportes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -1117,6 +1158,7 @@
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.materialCard13.ResumeLayout(false);
+            this.materialCard13.PerformLayout();
             this.materialCard10.ResumeLayout(false);
             this.materialCard9.ResumeLayout(false);
             this.materialCard9.PerformLayout();
@@ -1235,5 +1277,6 @@
         private MetroFramework.Controls.MetroDateTime metroDateTimeEntrada;
         private MaterialSkin.Controls.MaterialLabel materialLabel12;
         private MaterialSkin.Controls.MaterialFloatingActionButton btnBuscarEntradaSalida;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }
