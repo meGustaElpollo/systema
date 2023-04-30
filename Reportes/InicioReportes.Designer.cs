@@ -101,6 +101,7 @@
             this.reportViewer6 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.materialCard13.SuspendLayout();
@@ -171,6 +172,7 @@
             // materialCard13
             // 
             this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard13.Controls.Add(this.label1);
             this.materialCard13.Controls.Add(this.materialCard10);
             this.materialCard13.Controls.Add(this.materialComboBox2);
             this.materialCard13.Controls.Add(this.materialCard9);
@@ -1100,6 +1102,15 @@
             this.imageList1.Images.SetKeyName(6, "truck-delivery.png");
             this.imageList1.Images.SetKeyName(7, "pig-money.png");
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(668, 228);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 16);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "A fabricio le gusta el pene";
+            // 
             // InicioReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1117,6 +1128,7 @@
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.materialCard13.ResumeLayout(false);
+            this.materialCard13.PerformLayout();
             this.materialCard10.ResumeLayout(false);
             this.materialCard9.ResumeLayout(false);
             this.materialCard9.PerformLayout();
@@ -1235,5 +1247,6 @@
         private MetroFramework.Controls.MetroDateTime metroDateTimeEntrada;
         private MaterialSkin.Controls.MaterialLabel materialLabel12;
         private MaterialSkin.Controls.MaterialFloatingActionButton btnBuscarEntradaSalida;
+        private System.Windows.Forms.Label label1;
     }
 }
